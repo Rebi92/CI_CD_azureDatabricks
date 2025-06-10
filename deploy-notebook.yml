@@ -23,6 +23,7 @@ jobs:
         NOTEBOOK_BASE="/Workspace/Users/raulbi_92@hotmail.com/source"
         NOTEBOOKS=("mount_adls_storage" "mount_adls_storage_v1" "Disparador")  # Agrega más según necesitesas
 
+
         mkdir -p notebooks_to_deploy
 
         for nb in "${NOTEBOOKS[@]}"; do
